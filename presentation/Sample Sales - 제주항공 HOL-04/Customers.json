@@ -1,0 +1,48 @@
+{
+  "presentationTable" : {
+    "name" : "Customers",
+    "presentationColumns" : [ {
+      "name" : "Cust Key",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Cust Key"
+    }, {
+      "name" : "Name",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Name"
+    } ],
+    "hierarchies" : [ {
+      "name" : "Cust Hierarchy",
+      "sourceLogicalTable" : "logicalTable:Sample Sales BM.D3 Customers",
+      "levels" : [ {
+        "name" : "합계",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.합계"
+      }, {
+        "name" : "Customer Region",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer Region",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL-04.Customer Regions.Region"
+      }, {
+        "name" : "Customer Area",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer Area",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL-04.Customer Regions.Area"
+      }, {
+        "name" : "Customer Country",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer Country",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL-04.Customer Regions.Country Name"
+      }, {
+        "name" : "Customer State Province",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer State Province",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL-04.Customer Regions.State Province"
+      }, {
+        "name" : "Customer City",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer City",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL-04.Customer Regions.City"
+      }, {
+        "name" : "Customer Postal Code",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer Postal Code",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL-04.Customer Regions.Postal Code"
+      }, {
+        "name" : "Details",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Details",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL-04.Customers.Cust Key"
+      } ]
+    } ]
+  }
+}

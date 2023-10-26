@@ -1,0 +1,34 @@
+{
+  "subjectArea" : {
+    "name" : "Sample Sales - 제주항공 HOL-04",
+    "description" : "제주항공 HOL",
+    "sourceBusinessModel" : "businessModel:Sample Sales BM",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Sample Sales - 제주항공 HOL-04.Time"
+    }, {
+      "name" : "presentationTable:Sample Sales - 제주항공 HOL-04.Products"
+    }, {
+      "name" : "presentationTable:Sample Sales - 제주항공 HOL-04.Customers"
+    }, {
+      "name" : "presentationTable:Sample Sales - 제주항공 HOL-04.Base Fact"
+    }, {
+      "name" : "presentationTable:Sample Sales - 제주항공 HOL-04.Customer Regions"
+    } ],
+    "permissions" : [ {
+      "accessor" : "role:BIContentAuthor",
+      "access" : "READ"
+    }, {
+      "accessor" : "role:BIDataModelAuthor",
+      "access" : "READ"
+    }, {
+      "accessor" : "role:BIServiceAdministrator",
+      "access" : "READ"
+    }, {
+      "accessor" : "role:BIConsumer",
+      "access" : "READ"
+    }, {
+      "accessor" : "role:BIDataLoadAuthor",
+      "access" : "READ"
+    } ]
+  }
+}

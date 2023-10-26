@@ -1,0 +1,21 @@
+{
+  "initBlock" : {
+    "name" : "staticVariables",
+    "description" : "rpd repository static variables",
+    "tags" : [ "Project:Samp Essbase", "Project:Samp Relational" ],
+    "type" : "STATIC",
+    "variables" : [ {
+      "name" : "DB_USERNAME",
+      "description" : "This string should be the db login for BISAMPLE schema",
+      "value" : "'BISAMPLE'"
+    }, {
+      "name" : "DB_HOST",
+      "description" : "This host information should be the computer name (or IP) of your db host.",
+      "value" : "'localhost'"
+    }, {
+      "name" : "DB_PORT",
+      "description" : "This should be the port number of your db host.",
+      "value" : "'1521'"
+    } ]
+  }
+}
